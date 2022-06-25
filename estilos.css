@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+p,
+a,
+h1,
+ul,
+li {
+    color: white;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+h5, hr
+{
+    color: rgb(150, 150, 150);
+}
+
+h1,
+h5 {
+    margin-top: 0px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 8px;
+}
+
+.menu {
+    background-color: rgb(50, 50, 50);
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.about-div {
+    background-image: url(Resources/AboutBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.gris2 {
+    background-color: rgb(60, 60, 60);
+}
+
+.gris3 {
+    background-color: rgb(50, 50, 50);
+}
+
+.habilidad-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.borde
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-radius: 5px;
+}
