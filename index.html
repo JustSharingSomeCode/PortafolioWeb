@@ -15,7 +15,7 @@
 
 <html>
 <div class="container menu">
-    <div class="col-md-12 text-center my-4">
+    <div class="col-12 text-center my-4">
         <div class="row">
             <a class="col-md-4 text-decoration-none menu-item" href="#sobremi">
                 <p class="my-auto">Sobre mi</p>
@@ -58,13 +58,12 @@
                 <div class="habilidad-item" style="background-image: url(Resources/java-logo.png)"></div>
                 <div class="habilidad-item" style="background-image: url(Resources/PythonLogo.png)"></div>
                 <div class="habilidad-item" style="background-image: url(Resources/sql.webp)"></div>
-                <div class="habilidad-item" style="background-image: url(Resources/sqlServer.webp); height: 80px;">
-                </div>
+                <div class="habilidad-item" style="background-image: url(Resources/sqlServer.webp); height: 80px;"></div>
                 <div class="habilidad-item" style="background-image: url(Resources/mySqlLogo.png)"></div>
                 <div class="habilidad-item" style="background-image: url(Resources/htmlLogo.png)"></div>
                 <div class="habilidad-item" style="background-image: url(Resources/CssLogo.png)"></div>
-                <div class="habilidad-item" style="background-image: url(Resources/BootstrapLogo.png); width: 120px;">
-                </div>
+                <div class="habilidad-item" style="background-image: url(Resources/BootstrapLogo.png); width: 120px;"></div>
+                <div class="habilidad-item" style="background-image: url(Resources/angularLogo.png)"></div>
             </div>
         </div>
     </div>
@@ -74,6 +73,77 @@
         <div class="col-md-12 mb-4">
             <h1>Proyectos</h1>
         </div>
+
+        <hr>
+        <div class="col-md-12 p-sm-4">
+            <h5 class="pb-4">SistemaPos</h5>
+            <div class="col-sm-12 m-auto pb-4">
+                <div class="row">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/sistemaPos/clientes.png" alt="">
+                    <img class="img-fluid col-sm-6  mb-4" src="Resources/sistemaPos/productos.png" alt="">
+                    <img class="img-fluid col-sm-6  mb-4" src="Resources/sistemaPos/newfactura.png" alt="">
+                    <img class="img-fluid col-sm-6  mb-4" src="Resources/sistemaPos/addproductosfact.png" alt="">
+                    <img class="img-fluid col-sm-6  mb-4" src="Resources/sistemaPos/facturas.png" alt="">
+                </div>
+            </div>
+            <p>SistemaPos consiste en una aplicación web sencilla para administrar un punto de venta, tiene un módulo de clientes, productos y facturas.
+            </p>
+            <p><strong>Front-End:</strong> Angular y Bootstrap</p>
+            <p><strong>Back-End:</strong> WepApi (C#) y SQL Server</p>
+            
+            <a href="https://github.com/JustSharingSomeCode/FsistemaPos">
+                <p>Código fuente (Front-End)</p>
+            </a>
+            <a href="https://github.com/JustSharingSomeCode/BsistemaPos">
+                <p>Código fuente (Back-End)</p>
+            </a>
+        </div>  
+
+        <hr>
+        <div class="col-md-12 p-sm-4">
+            <h5 class="pb-4">Easy Travel</h5>
+            <div class="col-sm-12 m-auto pb-4">
+                <div class="row">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img1.PNG" alt="">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img2.PNG" alt="">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img3.PNG" alt="">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img4.PNG" alt="">
+
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img1.PNG" alt="">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img2.PNG" alt="">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img3.PNG" alt="">
+                </div>
+            </div>
+            <p>EasyTravel es un proyecto que desarrolle como Freelancer para un estudiante de Costa Rica, es una aplicación de reserva de vuelos y planes turísticos.
+                Cuenta con dos módulos, uno de administrador y otro de usuarios.
+                Esta desarrollado con Java EE 7 Web, tomcat y Mysql.
+            </p>
+        </div>
+
+        <hr>
+        <div class="col-md-12 p-sm-4">
+            <h5 class="pb-4">CSharpNation</h5>
+            <div class="col-sm-12 m-auto pb-4">
+                <div class="row">
+                    <img class="img-fluid col-sm-6 mb-4" src="Resources/CSharpNation/Img1.PNG" alt="">
+                    <img class="img-fluid col-sm-6  mb-4" src="Resources/CSharpNation/img2.PNG" alt="">
+                </div>
+            </div>
+            <p>CSharpNation es un proyecto que realice por diversión y esta basado en el canal de Youtube "<a href="https://www.youtube.com/c/TrapNation">TrapNation</a>".
+                Es un visualizador de audio el cual genera una onda de espectro visible según los sonidos que se reproduzcan en el computador.
+            </p>
+            <p>Este proyecto se realizó con varias librerías:</p>
+            <ul class="col-md-2 m-auto">
+                <li>WpfUi</li>
+                <li>ImageSharp</li>
+                <li>OpenTk</li>
+                <li>Bass</li>
+            </ul>
+            <a href="https://github.com/JustSharingSomeCode/CSharpNationV3.0">
+                <p>Puede encontrar el código fuente de este proyecto aquí.</p>
+            </a>
+        </div>
+
         <hr>
         <div class="col-md-12 p-sm-4">
             <h5 class="pb-4">WpfCustomizableControls</h5>
@@ -109,52 +179,7 @@
                 automáticamente el informe.
             </p>
             <p>Este proyecto se realizó con la librería de controles WpfCustomizableControls y cuenta con dos temas, uno claro y uno oscuro</p>
-        </div>
-
-        <hr>
-        <div class="col-md-12 p-sm-4">
-            <h5 class="pb-4">CSharpNation</h5>
-            <div class="col-sm-12 m-auto pb-4">
-                <div class="row">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/CSharpNation/Img1.PNG" alt="">
-                    <img class="img-fluid col-sm-6  mb-4" src="Resources/CSharpNation/img2.PNG" alt="">
-                </div>
-            </div>
-            <p>CSharpNation es un proyecto que realice por diversión y esta basado en el canal de Youtube "<a href="https://www.youtube.com/c/TrapNation">TrapNation</a>".
-                Es un visualizador de audio el cual genera una onda de espectro visible según los sonidos que se reproduzcan en el computador.
-            </p>
-            <p>Este proyecto se realizó con varias librerías:</p>
-            <ul class="col-md-2 m-auto">
-                <li>WpfUi</li>
-                <li>ImageSharp</li>
-                <li>OpenTk</li>
-                <li>Bass</li>
-            </ul>
-            <a href="https://github.com/JustSharingSomeCode/CSharpNationV3.0">
-                <p>Puede encontrar el código fuente de este proyecto aquí.</p>
-            </a>
-        </div>
-
-        <hr>
-        <div class="col-md-12 p-sm-4">
-            <h5 class="pb-4">Easy Travel</h5>
-            <div class="col-sm-12 m-auto pb-4">
-                <div class="row">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img1.PNG" alt="">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img2.PNG" alt="">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img3.PNG" alt="">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Img4.PNG" alt="">
-
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img1.PNG" alt="">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img2.PNG" alt="">
-                    <img class="img-fluid col-sm-6 mb-4" src="Resources/EasyTravel/Admin/Img3.PNG" alt="">
-                </div>
-            </div>
-            <p>EasyTravel es un proyecto que desarrolle como Freelancer para un estudiante de Costa Rica, es una aplicación de reserva de vuelos y planes turísticos.
-                Cuenta con dos módulos, uno de administrador y otro de usuarios.
-                Esta desarrollado con Java EE 7 Web, tomcat y Mysql.
-            </p>
-        </div>
+        </div>      
 
         <hr>
         <div class="col-md-12 p-sm-4">
@@ -181,5 +206,7 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 </html>
